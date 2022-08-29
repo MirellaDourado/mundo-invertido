@@ -3,3 +3,21 @@
   --primary-color-contrast: #ffffff
   -field-background-color: #000
 }
+
+.light-theme {
+  ---page-background: linear-gradient(
+    180deg
+    #ffffff 0%
+    #ffffff 65%
+    rgba(255, 255, 255, 0.75) 100%
+  )
+  --header-background-color: #e3e3e3;
+  --highlight-color: #000000;
+  --featured-font-family: "Archivo", sans-serif;
+  --character-top-image-src: url("../images/characters/kids-on-the-bike.svg");
+  --character-top-image-color: #ffffff;
+  --character-bottom-image-src: url("../images/characters/inverted-world-monster.svg");
+  --character-bottom-image-color: #e5e5e5;
+  --background-lamp-image: url("../images/backgrounds/lamps.png");
+  --footer-background-color: #b5bbbf;
+}
