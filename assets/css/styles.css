@@ -152,3 +152,10 @@ header::before {
   -webkit-mask: var(--character-bottom-image-src) bottom / 100% no-repeat;
 }
 
+main {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
