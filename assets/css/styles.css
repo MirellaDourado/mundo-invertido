@@ -43,6 +43,8 @@
   --footer-background-color: #000;
 }
 
+/* GENERIC */
+
 * {
   margin: 0;
   box-sizing: border-box;
@@ -63,3 +65,17 @@ p {
 p, input, textarea, label {
   font-family: "Libre Baskerville", serif;
 }
+
+button {
+  padding: 16px 32px;
+  background-color: transparent;
+  font-weight: 900;
+  font-family: var(--featured-font-family);
+  text-transform: uppercase;
+  cursor: pointer;
+  font-size: 1.25rem;
+  transition: background 1s;
+}
+
+/* HEADER */
+
